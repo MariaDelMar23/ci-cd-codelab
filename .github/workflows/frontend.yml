@@ -52,4 +52,4 @@ jobs:
         with:
           context: ./front-end-app # El working directory
           push: true
-          tags: ghcr.io/mariadelmar23/ci-cd-example-front:latest # Añadimos el tag de la imagen apuntando al registry de Github
+          tags: ghcr.io/${{ github.actor }}/ci-cd-example-front:latest # Añadimos el tag de la imagen apuntando al registry de Github
